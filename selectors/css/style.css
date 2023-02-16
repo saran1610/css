@@ -1,0 +1,136 @@
+b,h2,h3,h4{
+    color: crimson;
+}
+
+.class-selector{
+	color: darkgreen;
+}
+
+#id-selector{
+	color:indigo;
+}
+
+.child-selector>p{
+	color:firebrick;
+}
+
+.descendant-selector span{
+	color:darkblue;
+}
+
+.p1~p{
+	color:deeppink;
+}
+
+.p2+p{
+	color:red;
+}
+
+p[title]{
+	color:orangered;
+}
+
+p[id='p3']{
+	color:magenta;
+}
+
+p[class~='p4']{
+	color:yellowgreen;
+}
+
+p[class^="first"] {
+  background-color: aqua;
+}
+
+p[class$="line"] {
+  background-color: yellow;
+}
+
+p[class*="ird"] {
+  background-color:bisque;
+}
+a:link{
+	color:violet;
+}
+a:visited{
+	color:blue;
+}
+a:hover{
+	color:red;
+}
+a:active{
+	color:olive;
+}
+.first::first-line{
+	color:blue;
+}
+.letter::first-letter{
+	color:red;
+	font-size:x-large;
+}
+.mp1::first-line{
+	font-size:small-caps;
+	color:orange;
+}
+.mp1::first-letter{
+	font-size:xx-large;
+	color:purple;
+}
+.list{
+	list-style:none;
+}
+.list li{
+	position:relative;
+}
+.list li::before{
+	content:url("../image/heart.png");
+	/* position:absolute;
+	left:-20; */
+	
+	top:0;
+	width:5px;
+	height:2px ;
+
+}
+.llist{
+	list-style:none;
+}
+.llist li{
+	position:relative;
+}
+.llist li::after{
+	content:url("../image/tick.png");
+	position:absolute;
+	top:0;
+	width:5px;
+	height:auto;
+	left:40;
+}
+.selec::selection{
+	color:red;
+	background-color:black;
+}
+.selec1::selection{
+	color:yellow;
+	background-color:green;
+}
+.list2 li::marker{
+	color:purple;
+	font-size:25px;
+}
+.pp p:first-child{
+	color:brown;
+}
+.pp1 p:last-child{
+	color:blue;
+}
+.pp2 p:nth-child(3){
+	color:red;
+	background-color:aqua;
+	font-size:20px;
+}
+.pp3 p:nth-child(even){
+	color:yellow;
+	background-color:maroon;
+}
+

@@ -1,0 +1,54 @@
+.container{
+    margin:0  auto;
+   width: 80%;
+}
+h2{color:red;}
+
+.para1{font-family:"Times New Roman";}
+.para2{font-family:Arial;}
+.para3{font-family:"Lucida Console";}
+.para4{font-family:"lucida handwriting";}
+.para5{font-family:papyrus;}
+@font-face
+{font-family:lobster;
+src:url(../font-file/Lobster-Regular.ttf)}
+.lobster{font-family:lobster;}
+.px1{font-size:40px;}
+
+
+
+.em1{font-size:2.8em;}
+.em2{font-size:0.8em;}
+.em3{font-size:1.5em;}
+
+.pem1{font-size:100%;}
+
+.font{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fshort{
+    font: italic bold 22px/30px Georgia, serif;
+}
+.normal{
+    font-style: normal;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+.bold{
+    font-weight: bold;
+}
+.nor{
+    font-weight: normal;
+}
+.norms{
+    font-variant: normal;
+}
+.smallcap{
+    font-variant: small-caps;
+}

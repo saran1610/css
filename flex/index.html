@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <h1>Flex container</h1>
+    <h2>Flex-direction</h2>
+    <ol class="flexli">
+        <li>row</li>
+        <li>column</li>
+        <li>column-reverse</li>
+        <li>row-reverse</li>
+    </ol>
+   <div class="flexdirect">
+    
+    <div class="directitem">
+        <h2>row</h2>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    
+    <div class="directitem">
+        <h2>row-reverse</h2>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    
+    <div class="directitem">
+        <h2>column</h2>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <div class="directitem">
+        <h2>column-reverse</h2>
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div> 
+
+   </div>
+    
+  
+    
+    
+    <h2>Flex-wrap</h2>
+    <ol  class="flexli">
+        <li>wrap</li>
+        <li>no-wrap</li>
+        <li>wrap-reverse</li>
+    </ol>
+    <div class="flexwrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <h2>Flex-flow</h2>
+    <h4>The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.</h4>
+    <div class="flexflow">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+    <h2>Justify-content</h2>
+    <ol >
+        <li>flex-start-  aligns the flex items at the start of the container</li>
+        <li>flex-end-  aligns the flex items at the end of the container</li>
+        <li>center-   aligns the flex items at the center of the container</li>
+        <li>space-around-   displays the flex items with space before, between, and after the lines</li>
+        <li>space-between -  displays the flex items with space between the lines</li>
+       
+    </ol>
+    <div class="justify">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h2>Align-items</h2>
+    <ol class="flexli">
+        <li>center</li>
+        <li>flex-start</li>
+        <li>flex-end</li>
+        <li>baseline</li>
+        <li>stretch</li>
+    </ol>
+    <div class="alignitem">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h2>Align-content</h2>
+    <ol class="flexli">
+        <li>flex-start</li>
+        <li>flex-end</li>
+        <li>center</li>
+        <li>stretch</li>
+        <li>space-between</li>
+        <li>space-around</li>
+    </ol>
+    <div class="aligncont">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div><br><br>
+    <hr>
+
+    <h1>Flex-items</h1>
+    <h2>order</h2>
+    <h4>The order property specifies the order of the flex items. The first flex item in the code does not have to appear as the first item in the layout.The order value must be a number, default value is 0. </h4>
+    <div class="order">
+        <div style="order: 2">1</div>
+        <div  style="order: 4">2</div>
+        <div style="order: 1">3</div>
+        <div style="order: 3">4</div>
+    </div>
+    <h2>flex-grow</h2>
+    <h4>The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items.The value must be a number, default value is 0.</h4>
+    <div class="flexgrow">
+        <div style="flex-grow: 1">1</div>
+        <div style="flex-grow: 9">2</div>
+        <div style="flex-grow: 3">3</div>
+    </div>
+    <h2>flex-shrink</h2>
+    <h4>The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.The value must be a number, default value is 1.</h4>
+    <div class="shrink">
+        <div>1</div>
+        <div style="flex-shrink: 4"> 2</div>
+        <div>3</div>
+        <div>4</div>
+        <div style="flex-shrink: 8">5</div>
+    </div>
+    <h2>flex-basis</h2>
+    <h4>The flex-basis property specifies the initial length of a flex item.</h4>
+    <div class="basis">
+        <div  style="flex-basis: 100px">1</div>
+        <div>2</div>
+        <div  style="flex-basis: 400px">3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h2>flex</h2>
+    <h4>The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.</h4>
+    <div class="flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div style="flex: 0 0 200px">4</div>
+        <div>5</div>
+    </div>
+    <h2>align-self</h2>
+    <h4>The align-self property specifies the alignment for the selected item inside the flexible container.</h4>
+    <div class="self">
+        <div>1</div>
+        <div style="align-self: flex-start">2</div>
+        <div style="align-self: flex-end">3</div>
+        <div >4</div>
+    </div>
+</body>
+</html>
